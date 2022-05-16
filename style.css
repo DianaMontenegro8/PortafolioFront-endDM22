@@ -1,0 +1,15 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #0B090A ;
+    text-transform: uppercase;
+}
+
+.fotografia {
+    height: 300px auto;
+    width: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10%; 
+    border: rgb(77, 3, 34) 3px solid;
+}
