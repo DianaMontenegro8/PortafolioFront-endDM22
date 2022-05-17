@@ -9,11 +9,16 @@
     text-transform: uppercase;
 }
 
+.img {
+    
+    background: linear-gradient(#d3d3d3 , #fefefe);
+}
+
 .fotografia {
     height: 300px auto;
     width: 300px;
     border-radius: 50%;
-    padding: 10px;
-    margin: 10%; 
+    padding: 5px;
+    margin: 5%; 
     border: #660708 3px solid;
 }
