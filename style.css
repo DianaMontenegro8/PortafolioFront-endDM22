@@ -1,17 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Macondo & display=swap');
-
-*{
+body {
     font-weight: bold;
     font-family: 'Macondo', cursive;
     text-align: center;
-    color: #161A1D ;
-    text-transform: uppercase;
-}
-
-.img {
-    
-    background: linear-gradient(#d3d3d3 , #fefefe);
+    color: #161A1D;
+    background: linear-gradient(#DDFFF7, #93E1D8, #FFA69E, #AA4465);
 }
 
 .fotografia {
@@ -19,6 +11,10 @@
     width: 300px;
     border-radius: 50%;
     padding: 5px;
-    margin: 5%; 
-    border: #660708 3px solid;
+    margin: 5%;
+    border: #861657 5px solid;
+}
+
+.rodape {
+    background-color: #861657;opacity:0,2;
 }

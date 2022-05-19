@@ -1,67 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt.br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
-  <style>
-    
-    </style>
 
+  
+  <script src="https://kit.fontawesome.com/f8dddef563.js" crossorigin="anonymous"></script>
+
+  <link href="style.css" rel="stylesheet">
   <title>DCMA-Portafolio</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg " style="background-color: #BA181B;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+  <nav class="navbar navbar-expand-lg sticky-top " style="background-color: #861657">
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <img src="img/Cat-Black.png.png" alt="Figura do" width="50" height="50" class="d-inline-block align-text-top">
         <h1 class="text-white">DCMA</h1>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="pagina-principal.html">HOME</a>
-          </li>
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="sobremim.html">SOBRE MIM</a>
-          </li>
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="#">FORMAÇAO</a>
-          </li>
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="#">ATUAÇAO PROFISSIONAL</a>
-          </li>
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="#">PORTAFOLIO</a>
-          </li>
-          <li class="btn btn-outline-light">
-            <a class="nav-link" href="#">CONTACTO</a>
-          </li>
-        </ul>
-
+        </a>
       </div>
+    </nav>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto btn btn-light">
+
+        <li>
+          <a class="nav-link" href="pagina-principal.html">HOME</a>
+        </li>
+        <li>
+          <a class="nav-link" href="sobremim.html">SOBRE MIM</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">FORMAÇAO</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">ATUAÇAO PROFISSIONAL</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">PORTAFOLIO</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">CONTACTO</a>
+        </li>
+      </ul>
+
+    </div>
     </div>
   </nav>
-  <div class="img">
-     <img src="img/Diana.jpg" class="fotografia" alt="Fotografia De Diana">
+  <div>
+    <img src="img/Diana.jpg" class="fotografia" alt="Fotografia De Diana">
     <h1>Olá, Seja Bem-Vindo a Meu Portafolio</h1>
-    
+
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+
+
+  <footer class="rodape">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+            class="fab fa-github"></i></a>
+
+        <div class="text-center p-3">
+          © 2020 Copyright:
+          <a class="text-white">Diana Carolina Montenegro Ascanio</a>
+        </div>
+
+
+      </section>
+    </div>
+
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 </body>
 
