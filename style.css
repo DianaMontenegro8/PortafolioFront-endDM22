@@ -6,6 +6,17 @@ body {
     background: linear-gradient(#DDFFF7, #93E1D8, #FFA69E, #AA4465);
 }
 
+#menu {
+    color: #f0bfe0;
+    margin: 0 15px 0 15px;
+    text-transform: uppercase;
+}
+
+#menu:hover {
+    color: #93E1D8;
+  text-decoration: underline;
+}
+
 .fotografia {
     height: 300px auto;
     width: 300px;
@@ -16,5 +27,6 @@ body {
 }
 
 .rodape {
-    background-color: #861657;opacity:0,2;
+    background-color: #861657;
+    opacity: 0, 2;
 }
