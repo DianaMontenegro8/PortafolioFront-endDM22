@@ -6,7 +6,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #161A1D;
     background: linear-gradient(#DDFFF7, #93E1D8, #FFA69E, #AA4465);
-    display: block;
+
 }
 
 #menu {
@@ -15,31 +15,67 @@ body {
     margin: 0 15px 0 15px;
     text-transform: uppercase;
 }
+
 #menu:hover {
     color: #93E1D8;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-.titulo-principal{
+.titulo-principal {
     font-family: Arial, Helvetica, sans-serif;
     font-size: calc(1em + 1vw);
     margin: 30px 30px 30px 30px;
-    
-    
+
+
 }
 
-.titulo-nome{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.titulo-nome {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: calc(1em + 4vw);
     margin: 30px 30px 30px 30px;
 }
 
 #fotografia {
-   
+
     border-radius: 50%;
     border: #861657 5px solid;
     float: right;
-    margin: 30px 30px 30px 30px;
+}
+
+.botoes-home {
+    display: flex;
+    align-items: center;
+    margin: 30px 50px 30px 30px;
+
+
+}
+
+.button {
+    text-decoration: none;
+    color: #f9fcff;
+    background-color: #861657;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.sobre-mim {
+    text-decoration: none;
+    color: white;
+    background-color: #861657;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid white;
 }
 
 .rodape {
