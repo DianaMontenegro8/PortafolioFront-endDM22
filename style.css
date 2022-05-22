@@ -9,6 +9,7 @@ body {
 
 }
 
+/* css da pagina Principal */
 #menu {
     font-size: 15px;
     color: #f0bfe0;
@@ -21,7 +22,7 @@ body {
     text-decoration: underline;
 }
 
-.saludo{
+.saludo {
     font-size: 30px;
     margin-top: auto;
 }
@@ -52,8 +53,6 @@ body {
     align-items: center;
     margin: 30px 50px 30px 30px;
     gap: 30px
-
-
 }
 
 .button {
@@ -88,4 +87,21 @@ body {
     text-align: center;
     background-color: #861657;
     opacity: 0, 2;
+}
+
+/* css sobre-mim */
+
+.titulo-sobremim {
+    text-align: center;
+    margin: 25px 20px 25px 20px;
+    color: #861657;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.minha-descriçao  {
+    margin-top: auto;
+    text-align: center;
+    color: #161A1D;
+    font-size: 20px;
 }
