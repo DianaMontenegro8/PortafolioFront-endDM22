@@ -14,7 +14,7 @@ botaoEnviar.addEventListener('click', (event) => {
   let mensagemMensagem = document.getElementById("mensagemMensagem");
 
   if (campoNome.value.length === 0) {
-    mensagemNome.innerHTML = "Digite seu nome";
+    mensagemNome.innerHTML = "Digite seu Nome";
     formularioValido = false;
     campoNome.classList.add("errorInput");
   } else {
@@ -23,7 +23,7 @@ botaoEnviar.addEventListener('click', (event) => {
   }
 
   if (campoEmail.value === "") {
-    mensagemEmail.innerHTML = "Digite seu email";
+    mensagemEmail.innerHTML = "Digite seu E-mail";
     formularioValido = false;
     campoEmail.classList.add("errorInput");
   } else {
@@ -40,8 +40,8 @@ botaoEnviar.addEventListener('click', (event) => {
     campoMensagem.classList.remove("errorInput")
   }
 
-  if (!formularioValido){
+  if (!formularioValido) {
     event.preventDefault();
   }
 
-  });
+});

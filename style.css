@@ -2,7 +2,6 @@ body {
 
     font-size: 18px;
     font-weight: bold;
-    text-align: left;
     font-family: "Montserrat", sans-serif;
     color: #161A1D;
     background: linear-gradient(#DDFFF7, #93E1D8, #FFA69E, #AA4465);
@@ -134,24 +133,24 @@ body {
 
 /* css Atuaçao Profissional */
 
-.atuaçao-profissional-artesanato{
+.atuaçao-profissional-artesanato {
 
-font-family: 'Macondo', cursive;
-color: #861657;
-text-align: center;
-margin: 80px ;
+    font-family: 'Macondo', cursive;
+    color: #861657;
+    text-align: center;
+    margin: 80px;
 }
 
-#img-artesanato{
+#img-artesanato {
     width: 300px;
 }
 
-.front-end{
+.front-end {
 
-font-family: 'Macondo', cursive;
-color: #161A1D;
-text-align: center;
-margin: 80px 100px;
+    font-family: 'Macondo', cursive;
+    color: #161A1D;
+    text-align: center;
+    margin: 80px 100px;
 }
 
 .video {
@@ -167,7 +166,7 @@ margin: 80px 100px;
 
 /* css Portafolio */
 
-.titulo-projecto{
+.titulo-projecto {
     text-align: center;
     margin: 25px 20px 25px 20px;
     color: #861657;
@@ -176,26 +175,64 @@ margin: 80px 100px;
 
 }
 
-#card-projectos{
+#card-projectos {
     color: #161a1d;
     text-align: center;
     margin: 25px 20px 25px 20px;
 }
 
-.button-github{
+.button-github {
     text-decoration: none;
-    color: #161a1d;
-    background-color: #861657;
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
+    color: #861657;
+    background-color: #fbf5f8;
     border-radius: 6px;
-    border: 1px solid white;
-    text-align: center;
-    margin: 80px 80px;
+    border: 5px solid white;
+
 }
 
-/* css Contato */
+/* css Portafolio */
 
+
+.botao-button {
+    text-align: center;
+    color: #f9fcff;
+    background-color: #861657;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+.formulario {
+    text-align: center;
+    color:#861657;
+    padding: 50px
+}
+
+.datos {
+    color: #861657;
+    background-color: #93E1D8;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    margin: 5px;
+}
+
+.contato{
+    color: #861657;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo-contato{
+    padding: 25px;
+    color: #161A1D;
+}
+.dados{
+    
+    padding: 30px;
+}
+
+#redes{
+    text-align: center;
+    color: #161A1D;
+}
