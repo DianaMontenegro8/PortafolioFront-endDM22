@@ -120,11 +120,14 @@ body {
 }
 
 .titulo-certificados{
+    font-family: 'Macondo', cursive;
+    color: #861657;
     margin-top: 100px;
     text-align: center;
 
 }
 
 #outros-certificados{
+    margin-top: 100px;
     text-align: center;
 }
