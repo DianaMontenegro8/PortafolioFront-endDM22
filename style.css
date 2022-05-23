@@ -236,3 +236,19 @@ body {
     text-align: center;
     color: #161A1D;
 }
+
+.titulo-tecnologias{
+    color: #161A1D;
+    padding: 30px;
+    text-align: center;
+}
+
+#tecnologias{
+    text-decoration: none;
+    color:#861657;
+}
+
+.link-tecnologias{
+    text-decoration: none;
+    color:#161A1D;
+}
