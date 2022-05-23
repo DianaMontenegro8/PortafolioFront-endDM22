@@ -51,7 +51,7 @@ body {
 .botoes-home {
     display: flex;
     align-items: center;
-    margin: 30px 50px 30px 30px;
+    margin: 80px 80px;
     gap: 30px
 }
 
@@ -104,4 +104,27 @@ body {
     text-align: center;
     color: #161A1D;
     font-size: 20px;
+}
+
+.link-formacao{
+    text-decoration: none;
+    color: #861657;
+}
+
+
+/* css Formaçao */
+
+.certificados{
+    text-align: center;
+    margin: 50px 80px ;
+}
+
+.titulo-certificados{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#outros-certificados{
+    text-align: center;
 }
