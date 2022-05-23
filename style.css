@@ -167,3 +167,32 @@ margin: 80px 100px;
 
 /* css Portafolio */
 
+.titulo-projecto{
+    text-align: center;
+    margin: 25px 20px 25px 20px;
+    color: #861657;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#card-projectos{
+    color: #161a1d;
+    text-align: center;
+    margin: 25px 20px 25px 20px;
+}
+
+.button-github{
+    text-decoration: none;
+    color: #161a1d;
+    background-color: #861657;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 80px 80px;
+}
