@@ -58,12 +58,8 @@ body {
     text-decoration: none;
     color: #f9fcff;
     background-color: #861657;
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 3%;
     border-radius: 6px;
     border: 1px solid white;
 }
@@ -190,7 +186,7 @@ body {
 
 }
 
-/* css Portafolio */
+/* css Contato */
 
 
 .botao-button {
@@ -236,6 +232,8 @@ body {
     text-align: center;
     color: #161A1D;
 }
+
+/*Css Tecnologias*/
 
 .titulo-tecnologias{
     color: #161A1D;

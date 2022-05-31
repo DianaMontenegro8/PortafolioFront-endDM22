@@ -13,8 +13,8 @@
 
   <script src="https://kit.fontawesome.com/f8dddef563.js" crossorigin="anonymous"></script>
 
-  <link href="style.css" rel="stylesheet">
-  <title>DCMA-Portafolio</title>
+  <link href="../Css/style.css" rel="stylesheet">
+  <title>DCMA-Portfolio</title>
 </head>
 
 <body>
@@ -23,13 +23,15 @@
 
     <nav class="navbar">
       <div class="container-fluid">
-        <img src="img/Gato.png" alt="Figura de Gato" width="50" height="50" class="d-inline-block align-text-top">
+        <img src="../Img/Gato.png" alt="Figura de Gato" width="50" height="50" 
+        class="d-inline-block align-text-top">
         <h1 class="text-white">DCMA</h1>
       </div>
     </nav>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -49,7 +51,7 @@
           <a class="nav-link" id="menu" href="atuacao-profissional.html">Atuaçao Profissional</a>
         </li>
         <li>
-          <a class="nav-link" id="menu" href="portafolio.html">Portafolio</a>
+          <a class="nav-link" id="menu" href="portfolio.html">Portfolio</a>
         </li>
         <li>
           <a class="nav-link" id="menu" href="tecnologias.html">Tecnologias</a>
@@ -62,60 +64,45 @@
     </div>
   </nav>
 
-  <div class="contato">
-    <h1 class="titulo-contato"> Você gostaria de entrar em contato comigo? </h1>
-    <h4 class="dados"><i class="fa-solid fa-heart"></i> Pode ligar, mandar mensagem pelo Whatsapp 
-      neste numero +5511984227913 o enviar correio ao dianac94carolina@gmail.com que com gosto respodere!</h4>
-    <h2 id="redes">Tambem pode serguirme nas Redes Sociais <i class="fa-solid fa-heart"></i></h2>
+
+  <div class="titulo-projecto">
+    <p>Meus Projetos</p>
+    <p>Minhas práticas Realizadas para o Desenvolvimento do que foi Aprendido</p>
   </div>
 
-  <div class="container p-4 pb-0" id="redes">
-    <section class="mb-4">
-      <a class="btn btn-primary btn-floating m-2" style="background-color: #861657;"
-        href="https://www.facebook.com/DCMontenegroA" target="_blank" role="button"><i
-          class="fab fa-facebook-f"></i></a>
+  <div class="card-group card bg-transparent mb-5 " id="card-projectos">
+    <div class="card bg-transparent ">
+      <img class="card-img-top" src="../Img/Projecto (1).png" alt="Projeto Front end Portfolio">
+      <div class="card-body">
+        <p class="card-text"> Portafolio Front-end Demostrando Conhecimento feito com Html5, Css3, JavaScript e Bootstrap</p>
+        <a class="button-github" href="https://github.com/DianaMontenegro8/PortafolioFront-endDM22" 
+        target="_blank" role="button" alt="Proyecto portafolio Github"> GitHub 
+        <i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+        
+      </div>
+    </div>
 
-      <a class="btn btn-primary btn-floating m-2" style="background-color: #861657;"
-        href="https://twitter.com/Diana08CMA" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+    <div class="card bg-transparent ">
+      <iframe width="560" height="315" class="card-img-top" src="https://www.youtube.com/embed/VV5QnLHi57M" title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="card-body">
+        <p class="card-text">Love Pet Shop CRUD cadastro de mascotas para Banho&tosa, Feita com ReactJS</p>
+        <a class="button-github" href="https://github.com/DianaMontenegro8/ProjectoReact-LovePetShop" 
+        target="_blank" role="button" alt="Cadastro de pets no Github"> GitHub 
+        <i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+      </div>
+    </div>
 
-      <a class="btn btn-primary btn-floating m-2" style="background-color: #861657;"
-        href="https://www.instagram.com/dianac94carolina/" target="_blank" role="button"><i
-          class="fab fa-instagram"></i></a>
-
-      <a class="btn btn-primary btn-floating m-2" style="background-color: #861657;"
-        href="https://www.linkedin.com/in/dianamontenegro8/" target="_blank" role="button"><i
-          class="fab fa-linkedin-in"></i></a>
-
-      <a class="btn btn-primary btn-floating m-2" style="background-color: #861657;"
-        href="https://github.com/DianaMontenegro8" target="_blank" role="button"><i class="fab fa-github"></i></a>
+    <div class="card bg-transparent ">
+      <img class="card-img-top" src="../Img/Projecto (2).png" alt="Practica de Projeto Receita de Comida">
+      <div class="card-body">
+        <p class="card-text"> Receita passo a passo de como fazer "Cachapa" Comida Venezuelana , Feita com Html5 e Css3</p>
+        <a class="button-github" href="https://github.com/DianaMontenegro8/Html-Exercicio1-Receita" 
+        target="_blank" role="button" alt="Receita de Cachapa Github"> GitHub 
+        <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
   </div>
-
-  <h3 id="redes" >é tamben si quiser Deixar teu contacto! </h3>
-
-  <form class="formulario" id="contato">
-
-    <div class="mensagemNome" id="mensagemNome"></div>
-    <div>
-      <label for="nome"> Nome: </label>
-      <input class="datos" id="nome" type="text" name="nome" placeholder="Seu nome" requerid>
-    </div>
-
-    <div class="mensagemEmail" id="mensagemEmail"></div>
-    <div>
-      <label for="email"> E-mail: </label>
-      <input class="datos" id="email" type="text" name="E-mail" placeholder="SeuEmail@gmail.com" requerid>
-    </div>
-
-    <div class="mensagemMensagem" id="mensagemMensagem"></div>
-    <div>
-      <label for="msg"></label>
-      <textarea class="datos" id="mensagem" name="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="5"
-        placeholder="Deixe sua mensagem"></textarea>
-    </div>
-
-    <div id="mensagemBotaoEnviar"></div>
-    <button class="botao-button" id="botaoEnviar" type="submit" requerid>Enviar</button>
-  </form>
 
 
   <footer class="rodape">
@@ -140,13 +127,13 @@
           href="https://www.linkedin.com/in/dianamontenegro8/" target="_blank" role="button"><i
             class="fab fa-linkedin-in"></i></a>
 
-        <!-- Github -->
-        <a class="btn btn-primary btn-floating m-2" style="background-color: #333333;"
+        <!-- Github --><a class="btn btn-primary btn-floating m-2" style="background-color: #333333;"
           href="https://github.com/DianaMontenegro8" target="_blank" role="button"><i class="fab fa-github"></i></a>
+        
 
         <div class="text-center">
           <p> © 2022 Copyright: </p>
-          <img src="img/Gato.png" alt="Figura de Gato" width="50" height="50" class="d-inline-block ">
+          <img src="../Img/Gato.png" alt="Figura de Gato" width="50" height="50" class="d-inline-block ">
           <p class="text-white">DCMA</p>
 
         </div>
@@ -162,6 +149,5 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>
